@@ -1,0 +1,17 @@
+{
+  "name": "ft_transcendence",
+  "version": "1.0.0",
+  "description": "Pong game with microservices architecture",
+  "main": "app.js",
+  "scripts": {
+    "build": "echo 'Build completed - static files ready'",
+    "start": "echo 'Starting static server' && npx http-server dist -p 3000",
+    "dev": "echo 'Development mode - use live server'"
+  },
+  "keywords": ["pong", "game", "websocket", "microservices"],
+  "author": "ft_transcendence team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
