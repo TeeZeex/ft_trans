@@ -396,10 +396,6 @@ body.game-active {
     opacity: 0.8;
 }
 
-.game-active .game-canvas {
-    cursor: none;
-}
-
 /* Animations */
 @keyframes fadeIn {
     from {
